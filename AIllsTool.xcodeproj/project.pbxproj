@@ -15,6 +15,7 @@
 		A60587BB2224D85700D1E2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60587B92224D85700D1E2B4 /* LaunchScreen.storyboard */; };
 		A60587C12224D86F00D1E2B4 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60587C02224D86F00D1E2B4 /* TestClass.swift */; };
 		A60587C22224D87100D1E2B4 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60587C02224D86F00D1E2B4 /* TestClass.swift */; };
+		A60587C42224EEAA00D1E2B4 /* AIllsTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A60587C32224EEAA00D1E2B4 /* AIllsTool.podspec */; };
 		AC73C0CD8D9BF9DA55854EDE /* libPods-ToolDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C58826AEE5388E483D69B8 /* libPods-ToolDemo.a */; };
 		C1774FF0827CF027D41D4EFF /* libPods-AIllsTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F16590F43556261D727B0037 /* libPods-AIllsTool.a */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		A60587BA2224D85700D1E2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A60587BC2224D85700D1E2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A60587C02224D86F00D1E2B4 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		A60587C32224EEAA00D1E2B4 /* AIllsTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AIllsTool.podspec; sourceTree = "<group>"; };
 		B0BD027ECD018280148F86C1 /* Pods-AIllsTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIllsTool.release.xcconfig"; path = "Target Support Files/Pods-AIllsTool/Pods-AIllsTool.release.xcconfig"; sourceTree = "<group>"; };
 		F16590F43556261D727B0037 /* libPods-AIllsTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AIllsTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -62,6 +64,7 @@
 		A60587952224D7F400D1E2B4 = {
 			isa = PBXGroup;
 			children = (
+				A60587C32224EEAA00D1E2B4 /* AIllsTool.podspec */,
 				A60587A12224D7F400D1E2B4 /* AIllsTool */,
 				A60587AF2224D85600D1E2B4 /* ToolDemo */,
 				A60587A02224D7F400D1E2B4 /* Products */,
@@ -119,7 +122,6 @@
 				16B00C62ED604D0EB4033BB3 /* Pods-ToolDemo.debug.xcconfig */,
 				1011F24104A27CA81057F7F1 /* Pods-ToolDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -217,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A60587C42224EEAA00D1E2B4 /* AIllsTool.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
