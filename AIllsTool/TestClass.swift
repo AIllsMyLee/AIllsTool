@@ -7,9 +7,8 @@
 //
 
 import Foundation
-
-class TestClass {
-    static func helloWorld() {
+public class TestClass {
+    public static func helloWorld() {
         print("Hello World")
     }
 }
